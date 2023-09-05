@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notify - Your notes companion</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://notifyapp-server.onrender.com;"
+    />
+    <style>
+      ::-webkit-scrollbar {
+        width: 8px;
+        background-color: transparent;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: transparent;
+        margin-right: 50px;
+      }
+
+      ::-webkit-scrollbar-track-piece {
+        background-color: transparent;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #ecc94b;
+        border-radius: 8px;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-e482e36e.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html>

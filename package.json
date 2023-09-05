@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "The backend server to handle the CRUD operations like Displaying notes, Editing notes, Deleting notes and Creating notes for a Note taking software using Electron Js.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "cors"
+  ],
+  "author": "Abhinav Choubey",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  }
+}
